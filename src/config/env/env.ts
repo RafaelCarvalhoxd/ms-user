@@ -9,6 +9,8 @@ const requiredEnvVars = [
   'DB_POSTGRES_USER',
   'DB_POSTGRES_PASSWORD',
   'DB_POSTGRES_NAME',
+  'GRPC_HOST',
+  'GRPC_PORT',
 ];
 requiredEnvVars.forEach((envVar) => {
   if (!process.env[envVar]) {
