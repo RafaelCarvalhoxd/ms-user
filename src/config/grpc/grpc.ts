@@ -4,7 +4,7 @@ import path from 'path';
 import { makeUser } from '@/factories/user';
 import { ICreateUserRequest, IFindByEmailRequest, IUserResponse } from './interfaces/user';
 import env from '../env/env';
-import { createUserSchema, findByEmailSchema } from '@/dto/user';
+import { createUserSchema, findByEmailSchema } from '@/validator/user';
 
 const PROTO_PATH = path.join('proto', 'service.proto');
 
