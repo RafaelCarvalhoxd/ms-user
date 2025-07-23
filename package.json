@@ -35,7 +35,8 @@
     "drizzle-orm": "^0.44.3",
     "express": "^5.1.0",
     "module-alias": "^2.2.3",
-    "pg": "^8.16.3"
+    "pg": "^8.16.3",
+    "zod": "^4.0.5"
   },
   "_moduleAliases": {
     "@": "dist"
