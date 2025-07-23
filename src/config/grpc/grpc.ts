@@ -2,7 +2,7 @@ import * as grpc from '@grpc/grpc-js';
 import * as protoLoader from '@grpc/proto-loader';
 import path from 'path';
 import { makeUser } from '@/factories/user';
-import { ICreateUserRequest, IFindByEmailRequest, IUserResponse } from './interfaces/user';
+import { ICreateUserRequest, IFindByEmailRequest, IUserResponse } from '../../interfaces/messages/user';
 import env from '../env/env';
 import { createUserSchema, findByEmailSchema } from '@/validator/user';
 
