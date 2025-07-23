@@ -6,7 +6,7 @@ import env from '../env/env';
 import { users } from './schemas/user';
 
 const pool = new Pool({
-  host: 'localhost',
+  host: env.db.postgres.host,
   port: env.db.postgres.port,
   user: env.db.postgres.user,
   password: env.db.postgres.password,
