@@ -1,3 +1,4 @@
+import 'module-alias/register';
 import express from 'express';
 import env from '../env/env';
 import { setupRoutes } from '@/config/server/setup-routes';
