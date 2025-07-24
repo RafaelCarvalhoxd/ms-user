@@ -28,7 +28,7 @@ export function startGrpcServer() {
       console.error('❌ Failed to bind gRPC server:', error);
       return;
     }
-    console.log(`✅ gRPC server terapie at ${host}:${boundPort}`);
+    console.log(`✅ gRPC Server is running at ${host}:${boundPort}`);
   });
 }
 
